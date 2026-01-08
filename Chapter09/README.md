@@ -273,11 +273,10 @@ Build a team of specialized subagents and skills by completing:
 Create practical skills that reference external documentation:
 
 ```markdown
-<!-- .claude/skills/react-19-migration.md -->
+<!-- .claude/skills/react-19-migration/SKILL.md -->
 ---
 name: react-19-migration
-description: React 19 migration guide
-globs: ["**/*.tsx", "**/*.jsx"]
+description: React 19 migration guide. Use when working with React components or upgrading React versions.
 ---
 
 # React 19 Migration Guide

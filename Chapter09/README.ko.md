@@ -274,11 +274,10 @@ agent: custom-agent
 외부 문서를 참조하는 실용적인 skill을 만들어보세요:
 
 ```markdown
-<!-- .claude/skills/react-19-migration.md -->
+<!-- .claude/skills/react-19-migration/SKILL.md -->
 ---
 name: react-19-migration
-description: React 19 마이그레이션 가이드
-globs: ["**/*.tsx", "**/*.jsx"]
+description: React 19 마이그레이션 가이드. React 컴포넌트 작업이나 React 버전 업그레이드 시 사용.
 ---
 
 # React 19 Migration Guide
