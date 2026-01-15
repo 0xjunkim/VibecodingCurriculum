@@ -404,6 +404,21 @@ What you learned in this chapter:
 
 **Key point**: Good team settings let all members work consistently.
 
-The next chapter is the final mastery chapter. We summarize everything learned.
+---
 
-Proceed to [Chapter 25: Mastery](../Chapter25/README.md).
+## Congratulations!
+
+You've completed all 24 chapters of the Vibecoding Curriculum.
+
+Now you can use Claude Code to:
+- Build and deploy websites
+- Create apps and automation tools
+- Configure advanced workflows (Hooks, Skills, MCP)
+- Collaborate effectively with your team
+
+**Remember:**
+- You don't need to be perfect from the start
+- Keep improving with feedback
+- Claude is always ready to help
+
+**Go build something amazing!**

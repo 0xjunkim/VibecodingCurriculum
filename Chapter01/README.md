@@ -101,6 +101,25 @@ Code can be generated in web chats like ChatGPT or Claude.ai, but there are limi
 
 **Summary**: Web chat provides the recipe; Claude Code does the cooking.
 
+### Other AI Coding Tools
+
+Claude Code isn't the only AI coding tool. Here are popular options:
+
+| Tool | Type | Description |
+|------|------|-------------|
+| **Claude Code** | CLI (Terminal) | Anthropic's official CLI. Works in any terminal. |
+| **Cursor** | IDE | VS Code-based editor with built-in AI. |
+| **Windsurf** | IDE | AI-first code editor by Codeium. |
+| **GitHub Copilot** | Extension | AI assistant for VS Code, JetBrains, etc. |
+
+**Why learn Claude Code?**
+- Works in any terminal, no IDE lock-in
+- Direct file and command access
+- Pairs well with any editor you already use
+- Understanding CLI-based AI helps with all tools
+
+This curriculum focuses on Claude Code, but the concepts apply to other AI tools too.
+
 ### What Claude Code Can Do
 
 - Create websites
@@ -114,7 +133,7 @@ Code can be generated in web chats like ChatGPT or Claude.ai, but there are limi
 
 ## Learning Outcomes
 
-After completing 25 chapters, you will be able to:
+After completing 24 chapters, you will be able to:
 
 - Create and deploy a **portfolio website**
 - Build **simple apps** (TODO app, games, etc.)

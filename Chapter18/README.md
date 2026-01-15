@@ -91,7 +91,39 @@ When you make this request:
 
 Claude Code uses 18 built-in tools.
 
-### Tool Categories
+### Complete Tool List
+
+| Category | Tool | Description |
+|----------|------|-------------|
+| **File Operations** | `Read` | Read files (supports images, PDF, Jupyter notebooks) |
+| | `Write` | Create/overwrite files |
+| | `Edit` | Edit files via string replacement |
+| | `Glob` | Search files by pattern (e.g., `**/*.ts`) |
+| | `Grep` | Search content (ripgrep-based) |
+| **Execution** | `Bash` | Run shell commands |
+| | `KillShell` | Terminate background shells |
+| **Agents** | `Task` | Create and run subagents |
+| | `TaskOutput` | Get background task results |
+| **Web** | `WebFetch` | Fetch URL content (HTML→Markdown) |
+| | `WebSearch` | Web search |
+| **Planning** | `EnterPlanMode` | Enter plan mode |
+| | `ExitPlanMode` | Exit plan mode and request approval |
+| **User Interaction** | `AskUserQuestion` | Ask user questions (multiple choice) |
+| | `TodoWrite` | Manage task list |
+| **Other** | `Skill` | Run skills (/commit, /review-pr, etc.) |
+| | `NotebookEdit` | Edit Jupyter notebook cells |
+
+### Tool Limitations
+
+| Tool | Limitation | Value |
+|------|------------|-------|
+| **Bash** | Default timeout | 2 minutes |
+| | Max timeout | 10 minutes |
+| | Output limit | 30,000 characters |
+| **Read** | Default lines | 2,000 lines |
+| | Line length | 2,000 characters |
+
+### Tool Categories (Visual)
 
 ```
 ┌─────────────────────────────────────────────────────────────────────────────┐
@@ -118,7 +150,7 @@ Claude Code uses 18 built-in tools.
 │  │         │ │search   │                                                   │
 │  └─────────┘ └─────────┘                                                   │
 │                                                                             │
-│  Other ─────────────────────────────────────────────────────────────────    │
+│  User Interaction ──────────────────────────────────────────────────────    │
 │  ┌─────────┐ ┌─────────┐ ┌───────────────┐ ┌───────────────┐              │
 │  │TodoWrite│ │  Skill  │ │ EnterPlanMode │ │AskUserQuestion│              │
 │  │task mgmt│ │run skill│ │  plan mode    │ │ ask user      │              │
@@ -177,6 +209,37 @@ When a tool is called, it's processed like this:
 
 For tasks where Claude Code has dedicated tools, requesting those tools is more efficient.
 
+### AskUserQuestion Tool
+
+This tool allows Claude to ask you questions during task execution.
+
+**When it's used:**
+- Clarifying ambiguous requirements
+- Choosing between multiple approaches
+- Getting preferences for implementation details
+
+**Example interaction:**
+
+```
+Claude: I need to clarify something about the authentication.
+
+┌─ Auth method ────────────────────────────────────────┐
+│ Which authentication method should I use?           │
+│                                                      │
+│ ○ JWT (Recommended)                                  │
+│   Stateless, good for APIs                          │
+│                                                      │
+│ ○ Session-based                                      │
+│   Traditional, server-side storage                  │
+│                                                      │
+│ ○ OAuth                                              │
+│   Third-party login (Google, GitHub)                │
+└──────────────────────────────────────────────────────┘
+```
+
+**Why this matters:**
+Instead of guessing or making assumptions, Claude can ask you directly. This leads to better results that match your actual needs.
+
 ---
 
 ## The Subagent System
@@ -202,12 +265,14 @@ Complex tasks are split into multiple "subagents."
 
 ### Subagent Types
 
-| Type | Purpose | Available Tools | Characteristics |
-|------|---------|----------------|-----------------|
-| `Explore` | Codebase exploration | Read, Glob, Grep | Read-only |
-| `Plan` | Planning | Read, Glob, Grep | Read-only |
-| `Bash` | Command specialist | Bash only | Git operations etc. |
-| `general-purpose` | Complex tasks | All tools | All-purpose |
+| Type | Purpose | Available Tools |
+|------|---------|----------------|
+| `Explore` | Codebase exploration, file search | Read, Glob, Grep (no Edit/Write) |
+| `Plan` | Implementation planning, architecture | Read, Glob, Grep (no Edit/Write) |
+| `Bash` | Git operations, command execution | Bash only |
+| `general-purpose` | Complex multi-step tasks | All tools (*) |
+| `claude-code-guide` | Claude Code usage help | Glob, Grep, Read, WebFetch, WebSearch |
+| `statusline-setup` | Status line configuration | Read, Edit |
 
 ### Parallel vs Sequential Execution
 

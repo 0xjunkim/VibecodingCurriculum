@@ -3,7 +3,7 @@
 > A systematic learning curriculum for AI-native development
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
-[![Chapters](https://img.shields.io/badge/Chapters-25-blue.svg)](#curriculum-structure)
+[![Chapters](https://img.shields.io/badge/Chapters-24-blue.svg)](#curriculum-structure)
 [![Claude Code](https://img.shields.io/badge/Built%20with-Claude%20Code-blueviolet.svg)](https://github.com/anthropics/claude-code)
 
 **English** | [한국어](./README.ko.md)
@@ -92,7 +92,7 @@ No coding experience required. We proceed step by step from the beginning.
 
 ## Learning Outcomes
 
-After completing 25 chapters, you will be able to:
+After completing 24 chapters, you will be able to:
 
 - **Build a portfolio website** and deploy it
 - **Create simple apps** (TODO app, games, etc.)
@@ -149,7 +149,7 @@ Build more practical projects.
 | 16 | Chatbot | Building an AI chatbot | [EN](./Chapter16/README.md) / [KO](./Chapter16/README.ko.md) |
 | 17 | Full-stack App | Complete web application | [EN](./Chapter17/README.md) / [KO](./Chapter17/README.ko.md) |
 
-### Part 5: Advanced (Chapter 18-25)
+### Part 5: Advanced (Chapter 18-24)
 
 Learn advanced Claude Code features and become a master.
 
@@ -162,7 +162,6 @@ Learn advanced Claude Code features and become a master.
 | 22 | MCP Integration | Connect external services | [EN](./Chapter22/README.md) / [KO](./Chapter22/README.ko.md) |
 | 23 | CI/CD Automation | GitHub Actions, auto deployment | [EN](./Chapter23/README.md) / [KO](./Chapter23/README.ko.md) |
 | 24 | Team Collaboration | Team workflows, onboarding | [EN](./Chapter24/README.md) / [KO](./Chapter24/README.ko.md) |
-| 25 | Mastery | Summary, final project | [EN](./Chapter25/README.md) / [KO](./Chapter25/README.ko.md) |
 
 ---
 

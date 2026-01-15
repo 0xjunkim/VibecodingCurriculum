@@ -3,7 +3,7 @@
 > AI 네이티브 개발을 위한 체계적인 학습 커리큘럼
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
-[![Chapters](https://img.shields.io/badge/챕터-25개-blue.svg)](#커리큘럼-구조)
+[![Chapters](https://img.shields.io/badge/챕터-24개-blue.svg)](#커리큘럼-구조)
 [![Claude Code](https://img.shields.io/badge/Built%20with-Claude%20Code-blueviolet.svg)](https://github.com/anthropics/claude-code)
 
 [English](./README.md) | **한국어**
@@ -92,7 +92,7 @@ claude
 
 ## 학습 성과
 
-25개 챕터를 완료하면 다음을 할 수 있습니다:
+24개 챕터를 완료하면 다음을 할 수 있습니다:
 
 - **포트폴리오 웹사이트** 제작 및 배포
 - **간단한 앱** (TODO 앱, 게임 등) 개발
@@ -149,7 +149,7 @@ Claude Code의 핵심 기능을 익힙니다.
 | 16 | 챗봇 만들기 | AI 챗봇 구현 | [EN](./Chapter16/README.md) / [KO](./Chapter16/README.ko.md) |
 | 17 | 풀스택 앱 만들기 | 완성형 웹 애플리케이션 | [EN](./Chapter17/README.md) / [KO](./Chapter17/README.ko.md) |
 
-### Part 5: 고급 (Chapter 18-25)
+### Part 5: 고급 (Chapter 18-24)
 
 Claude Code의 고급 기능을 학습하고 마스터가 됩니다.
 
@@ -162,7 +162,6 @@ Claude Code의 고급 기능을 학습하고 마스터가 됩니다.
 | 22 | MCP 연동 | 외부 서비스 연결 | [EN](./Chapter22/README.md) / [KO](./Chapter22/README.ko.md) |
 | 23 | CI/CD 자동화 | GitHub Actions, 자동 배포 | [EN](./Chapter23/README.md) / [KO](./Chapter23/README.ko.md) |
 | 24 | 팀 협업 | 팀 워크플로우, 온보딩 | [EN](./Chapter24/README.md) / [KO](./Chapter24/README.ko.md) |
-| 25 | 마스터 | 종합 정리, 최종 프로젝트 | [EN](./Chapter25/README.md) / [KO](./Chapter25/README.ko.md) |
 
 ---
 

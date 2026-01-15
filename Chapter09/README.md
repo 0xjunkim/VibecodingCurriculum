@@ -32,6 +32,42 @@ Git is a tool for managing versions of code.
 
 ---
 
+## What is GitHub?
+
+**GitHub** is a cloud service for storing and sharing Git repositories.
+
+### Git vs GitHub
+
+| Git | GitHub |
+|-----|--------|
+| Tool on your computer | Website (github.com) |
+| Manages version history | Stores code online |
+| Works offline | Enables collaboration |
+| Free software | Free + paid plans |
+
+**Analogy**: Git is like a camera (takes photos), GitHub is like a photo album website (stores and shares photos).
+
+### What Can You Do on GitHub?
+
+- **Backup**: Store your code in the cloud
+- **Collaborate**: Work with others on the same project
+- **Open Source**: Share code publicly
+- **Pull Requests**: Request code reviews before merging
+- **Issues**: Track bugs and feature requests
+
+### Connecting to GitHub
+
+```
+> Connect this project to GitHub
+```
+
+Claude will:
+1. Check if you're logged in to GitHub
+2. Create a repository if needed
+3. Push your code
+
+---
+
 ## Check Git Installation
 
 ```
