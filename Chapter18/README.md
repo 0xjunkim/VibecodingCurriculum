@@ -133,7 +133,7 @@ When you make this request:
 
 ## The Tool System
 
-Claude Code uses 18 built-in tools.
+Claude Code uses 17 built-in tools.
 
 ### Complete Tool List
 

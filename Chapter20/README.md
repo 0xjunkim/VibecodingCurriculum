@@ -104,9 +104,11 @@ Hooks are code that automatically runs when specific events occur.
 
 ### Hook Types
 
+Below is the execution flow of the most commonly used hooks:
+
 ```
 ┌─────────────────────────────────────────────────────────────────┐
-│                      Hook Execution Points                       │
+│                   Main Hook Execution Points                     │
 └─────────────────────────────────────────────────────────────────┘
 
  User Input
@@ -134,6 +136,27 @@ Hooks are code that automatically runs when specific events occur.
 │      Stop        │ ← When response completes
 └──────────────────┘
 ```
+
+### Complete Hook Event List
+
+Claude Code supports a total of 12 hook events:
+
+| Hook Event | Description | Uses Matcher |
+|------------|-------------|--------------|
+| `PreToolUse` | Just before tool execution | ✅ |
+| `PostToolUse` | Just after successful tool execution | ✅ |
+| `PostToolUseFailure` | When tool execution fails | ✅ |
+| `PermissionRequest` | When permission dialog is shown | ✅ |
+| `UserPromptSubmit` | When user submits a prompt | ❌ |
+| `Notification` | When Claude Code sends a notification | ❌ |
+| `Stop` | When Claude Code response completes | ❌ |
+| `SessionStart` | When session starts or resumes | ❌ |
+| `SessionEnd` | When session ends | ❌ |
+| `SubagentStart` | When subagent starts | ❌ |
+| `SubagentStop` | When subagent completes | ❌ |
+| `PreCompact` | Just before context compaction | ❌ |
+
+> **Note**: Matcher is a pattern for matching tool names. It is only used with `PreToolUse`, `PostToolUse`, `PostToolUseFailure`, and `PermissionRequest`.
 
 ### Hook Configuration File
 
