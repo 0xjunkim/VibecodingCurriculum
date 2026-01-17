@@ -54,7 +54,7 @@ npm install -g @anthropic-ai/claude-code
 claude
 ```
 
-준비됐나요? [Chapter 01: AI 코딩이란?](./Chapter01/README.ko.md)부터 시작하세요!
+준비됐나요? [Chapter 01: AI 코딩이란?](./Chapter01-AI-Coding-Intro/README.ko.md)부터 시작하세요!
 
 ---
 
@@ -231,11 +231,11 @@ AI가 문법을 처리합니다. 당신은 **무엇**을 원하는지에만 집�
 
 | Chapter | 주제 | 배우는 것 | 링크 |
 |---------|------|----------|------|
-| 01 | AI 코딩이란? | 바이브코딩 개념, Claude Code 소개 | [바로가기](./Chapter01/README.ko.md) |
-| 02 | 설치하기 | 터미널 기초, Claude Code 설치 | [바로가기](./Chapter02/README.ko.md) |
-| 03 | 첫 대화 | 권한 모드, 단축키, 슬래시 명령어 | [바로가기](./Chapter03/README.ko.md) |
-| 04 | 파일 다루기 | @멘션, 파일 생성/읽기/수정 | [바로가기](./Chapter04/README.ko.md) |
-| 05 | 터미널 명령어 | 명령어 실행, 프로젝트 실행 | [바로가기](./Chapter05/README.ko.md) |
+| 01 | AI 코딩이란? | 바이브코딩 개념, Claude Code 소개 | [바로가기](./Chapter01-AI-Coding-Intro/README.ko.md) |
+| 02 | 설치하기 | 터미널 기초, Claude Code 설치 | [바로가기](./Chapter02-Installation/README.ko.md) |
+| 03 | 첫 대화 | 권한 모드, 단축키, 슬래시 명령어 | [바로가기](./Chapter03-First-Conversation/README.ko.md) |
+| 04 | 파일 다루기 | @멘션, 파일 생성/읽기/수정 | [바로가기](./Chapter04-Working-with-Files/README.ko.md) |
+| 05 | 터미널 명령어 | 명령어 실행, 프로젝트 실행 | [바로가기](./Chapter05-Terminal-Commands/README.ko.md) |
 
 ---
 
@@ -245,12 +245,12 @@ Claude Code의 핵심 기능을 익힙니다.
 
 | Chapter | 주제 | 배우는 것 | 링크 |
 |---------|------|----------|------|
-| 06 | 프로젝트 구조 이해 | 폴더 탐색, 코드베이스 이해 | [바로가기](./Chapter06/README.ko.md) |
-| 07 | 컨텍스트와 메모리 | Claude의 기억 방식, 컨텍스트 관리 | [바로가기](./Chapter07/README.ko.md) |
-| 08 | 효과적인 프롬프팅 | 좋은 프롬프트 작성, Plan 모드 | [바로가기](./Chapter08/README.ko.md) |
-| 09 | 코드 탐색하기 | Glob, Grep, 뭐든 찾기 | [바로가기](./Chapter09/README.ko.md) |
-| 10 | 코드 편집하기 | 탐색 → 계획 → 실행 워크플로우 | [바로가기](./Chapter10/README.ko.md) |
-| 11 | Git 기초 | 커밋, 브랜치, PR | [바로가기](./Chapter11/README.ko.md) |
+| 06 | 프로젝트 구조 이해 | 폴더 탐색, 코드베이스 이해 | [바로가기](./Chapter06-Project-Structure/README.ko.md) |
+| 07 | 컨텍스트와 메모리 | Claude의 기억 방식, 컨텍스트 관리 | [바로가기](./Chapter07-Context-and-Memory/README.ko.md) |
+| 08 | 효과적인 프롬프팅 | 좋은 프롬프트 작성, Plan 모드 | [바로가기](./Chapter08-Effective-Prompting/README.ko.md) |
+| 09 | 코드 탐색하기 | Glob, Grep, 뭐든 찾기 | [바로가기](./Chapter09-Exploring-Code/README.ko.md) |
+| 10 | 코드 편집하기 | 탐색 → 계획 → 실행 워크플로우 | [바로가기](./Chapter10-Editing-Code/README.ko.md) |
+| 11 | Git 기초 | 커밋, 브랜치, PR | [바로가기](./Chapter11-Git-Basics/README.ko.md) |
 
 ### 🎉 Part 2를 마치면?
 
@@ -272,11 +272,11 @@ Claude Code의 핵심 기능을 익힙니다.
 
 | Chapter | 주제 | 만드는 것 | 링크 |
 |---------|------|----------|------|
-| 12 | 프로젝트 메모리 | CLAUDE.md로 프로젝트별 지시 | [바로가기](./Chapter12/README.ko.md) |
-| 13 | 웹사이트 개발 | 개인 포트폴리오 사이트 | [바로가기](./Chapter13/README.ko.md) |
-| 14 | 배포하기 | Vercel/Railway 배포 | [바로가기](./Chapter14/README.ko.md) |
-| 15 | 데이터 저장 | Supabase 연동 | [바로가기](./Chapter15/README.ko.md) |
-| 16 | 미니 게임 | 재미있는 브라우저 게임 | [바로가기](./Chapter16/README.ko.md) |
+| 12 | 프로젝트 메모리 | CLAUDE.md로 프로젝트별 지시 | [바로가기](./Chapter12-Project-Memory/README.ko.md) |
+| 13 | 웹사이트 개발 | 개인 포트폴리오 사이트 | [바로가기](./Chapter13-Website-Development/README.ko.md) |
+| 14 | 배포하기 | Vercel/Railway 배포 | [바로가기](./Chapter14-Deployment/README.ko.md) |
+| 15 | 데이터 저장 | Supabase 연동 | [바로가기](./Chapter15-Data-Storage/README.ko.md) |
+| 16 | 미니 게임 | 재미있는 브라우저 게임 | [바로가기](./Chapter16-Mini-Games/README.ko.md) |
 
 ### 🎉 Part 3를 마치면?
 
@@ -295,10 +295,10 @@ Claude Code의 핵심 기능을 익힙니다.
 
 | Chapter | 주제 | 만드는 것 | 링크 |
 |---------|------|----------|------|
-| 17 | CLI 도구 만들기 | 커맨드라인 유틸리티 | [바로가기](./Chapter17/README.ko.md) |
-| 18 | 챗봇 만들기 | Discord/Slack 봇 | [바로가기](./Chapter18/README.ko.md) |
-| 19 | 백엔드 기초 | Express + SQLite REST API | [바로가기](./Chapter19/README.ko.md) |
-| 20 | 풀스택 앱 완성 | JWT 인증이 있는 완전한 앱 | [바로가기](./Chapter20/README.ko.md) |
+| 17 | CLI 도구 만들기 | 커맨드라인 유틸리티 | [바로가기](./Chapter17-CLI-Tools/README.ko.md) |
+| 18 | 챗봇 만들기 | Discord/Slack 봇 | [바로가기](./Chapter18-Chatbots/README.ko.md) |
+| 19 | 백엔드 기초 | Express + SQLite REST API | [바로가기](./Chapter19-Backend-Basics/README.ko.md) |
+| 20 | 풀스택 앱 완성 | JWT 인증이 있는 완전한 앱 | [바로가기](./Chapter20-Full-Stack-Apps/README.ko.md) |
 
 ### 🎉 Part 4를 마치면?
 
@@ -318,13 +318,13 @@ Claude Code를 마스터하고 파워 유저가 됩니다.
 
 | Chapter | 주제 | 마스터하는 것 | 링크 |
 |---------|------|-------------|------|
-| 21 | 아키텍처 이해 | Claude Code 내부 동작 원리 | [바로가기](./Chapter21/README.ko.md) |
-| 22 | 설정 심화 | CLAUDE.md 3단계, settings.json | [바로가기](./Chapter22/README.ko.md) |
-| 23 | Hooks & Commands | 자동화 트리거, 커스텀 명령어 | [바로가기](./Chapter23/README.ko.md) |
-| 24 | Agents & Skills | 전문화된 AI 어시스턴트 | [바로가기](./Chapter24/README.ko.md) |
-| 25 | MCP 연동 | 외부 서비스 연결 | [바로가기](./Chapter25/README.ko.md) |
-| 26 | CI/CD 자동화 | GitHub Actions, 자동 배포 | [바로가기](./Chapter26/README.ko.md) |
-| 27 | 팀 협업 | 팀 워크플로우, 온보딩 | [바로가기](./Chapter27/README.ko.md) |
+| 21 | 아키텍처 이해 | Claude Code 내부 동작 원리 | [바로가기](./Chapter21-Architecture/README.ko.md) |
+| 22 | 설정 심화 | CLAUDE.md 3단계, settings.json | [바로가기](./Chapter22-Advanced-Config/README.ko.md) |
+| 23 | Hooks & Commands | 자동화 트리거, 커스텀 명령어 | [바로가기](./Chapter23-Hooks-and-Commands/README.ko.md) |
+| 24 | Agents & Skills | 전문화된 AI 어시스턴트 | [바로가기](./Chapter24-Agents-and-Skills/README.ko.md) |
+| 25 | MCP 연동 | 외부 서비스 연결 | [바로가기](./Chapter25-MCP-Integration/README.ko.md) |
+| 26 | CI/CD 자동화 | GitHub Actions, 자동 배포 | [바로가기](./Chapter26-CI-CD-Automation/README.ko.md) |
+| 27 | 팀 협업 | 팀 워크플로우, 온보딩 | [바로가기](./Chapter27-Team-Collaboration/README.ko.md) |
 
 ### 🎉 전체 커리큘럼을 마치면?
 
@@ -421,5 +421,5 @@ MIT License
 
 <p align="center">
   <strong>AI 네이티브 개발 여정을 시작할 준비가 됐나요?</strong><br>
-  <a href="./Chapter01/README.ko.md">Chapter 01 시작하기 →</a>
+  <a href="./Chapter01-AI-Coding-Intro/README.ko.md">Chapter 01 시작하기 →</a>
 </p>

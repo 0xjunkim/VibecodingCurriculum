@@ -54,7 +54,7 @@ npm install -g @anthropic-ai/claude-code
 claude
 ```
 
-Ready? Start with [Chapter 01: What is AI Coding?](./Chapter01/README.md)!
+Ready? Start with [Chapter 01: What is AI Coding?](./Chapter01-AI-Coding-Intro/README.md)!
 
 ---
 
@@ -231,11 +231,11 @@ Learn basic concepts and how to use Claude Code.
 
 | Chapter | Topic | What You'll Learn | Link |
 |---------|-------|-------------------|------|
-| 01 | What is AI Coding? | Vibecoding concept, why Claude Code | [Go](./Chapter01/README.md) |
-| 02 | Installation | Terminal basics, install Claude Code | [Go](./Chapter02/README.md) |
-| 03 | First Conversation | Permission modes, shortcuts, slash commands | [Go](./Chapter03/README.md) |
-| 04 | Working with Files | @mentions, create/read/edit files | [Go](./Chapter04/README.md) |
-| 05 | Terminal Commands | Run commands, execute projects | [Go](./Chapter05/README.md) |
+| 01 | What is AI Coding? | Vibecoding concept, why Claude Code | [Go](./Chapter01-AI-Coding-Intro/README.md) |
+| 02 | Installation | Terminal basics, install Claude Code | [Go](./Chapter02-Installation/README.md) |
+| 03 | First Conversation | Permission modes, shortcuts, slash commands | [Go](./Chapter03-First-Conversation/README.md) |
+| 04 | Working with Files | @mentions, create/read/edit files | [Go](./Chapter04-Working-with-Files/README.md) |
+| 05 | Terminal Commands | Run commands, execute projects | [Go](./Chapter05-Terminal-Commands/README.md) |
 
 ---
 
@@ -245,12 +245,12 @@ Master the core features of Claude Code.
 
 | Chapter | Topic | What You'll Learn | Link |
 |---------|-------|-------------------|------|
-| 06 | Project Structure | Navigate folders, understand codebases | [Go](./Chapter06/README.md) |
-| 07 | Context & Memory | How Claude remembers, context management | [Go](./Chapter07/README.md) |
-| 08 | Effective Prompting | Write better prompts, Plan mode | [Go](./Chapter08/README.md) |
-| 09 | Exploring Code | Glob, Grep, find anything | [Go](./Chapter09/README.md) |
-| 10 | Editing Code | Explore → Plan → Execute workflow | [Go](./Chapter10/README.md) |
-| 11 | Git Basics | Commits, branches, pull requests | [Go](./Chapter11/README.md) |
+| 06 | Project Structure | Navigate folders, understand codebases | [Go](./Chapter06-Project-Structure/README.md) |
+| 07 | Context & Memory | How Claude remembers, context management | [Go](./Chapter07-Context-and-Memory/README.md) |
+| 08 | Effective Prompting | Write better prompts, Plan mode | [Go](./Chapter08-Effective-Prompting/README.md) |
+| 09 | Exploring Code | Glob, Grep, find anything | [Go](./Chapter09-Exploring-Code/README.md) |
+| 10 | Editing Code | Explore → Plan → Execute workflow | [Go](./Chapter10-Editing-Code/README.md) |
+| 11 | Git Basics | Commits, branches, pull requests | [Go](./Chapter11-Git-Basics/README.md) |
 
 ### 🎉 After Part 2
 
@@ -272,11 +272,11 @@ Build real projects and deploy them.
 
 | Chapter | Topic | What You'll Build | Link |
 |---------|-------|-------------------|------|
-| 12 | Project Memory | CLAUDE.md for project-specific instructions | [Go](./Chapter12/README.md) |
-| 13 | Website Development | Personal portfolio website | [Go](./Chapter13/README.md) |
-| 14 | Deployment | Deploy to Vercel/Railway | [Go](./Chapter14/README.md) |
-| 15 | Data Storage | Connect to Supabase database | [Go](./Chapter15/README.md) |
-| 16 | Mini Games | Fun browser games | [Go](./Chapter16/README.md) |
+| 12 | Project Memory | CLAUDE.md for project-specific instructions | [Go](./Chapter12-Project-Memory/README.md) |
+| 13 | Website Development | Personal portfolio website | [Go](./Chapter13-Website-Development/README.md) |
+| 14 | Deployment | Deploy to Vercel/Railway | [Go](./Chapter14-Deployment/README.md) |
+| 15 | Data Storage | Connect to Supabase database | [Go](./Chapter15-Data-Storage/README.md) |
+| 16 | Mini Games | Fun browser games | [Go](./Chapter16-Mini-Games/README.md) |
 
 ### 🎉 After Part 3
 
@@ -295,10 +295,10 @@ Build more practical, production-ready projects.
 
 | Chapter | Topic | What You'll Build | Link |
 |---------|-------|-------------------|------|
-| 17 | CLI Tools | Command-line utilities | [Go](./Chapter17/README.md) |
-| 18 | Chatbots | Discord/Slack bots | [Go](./Chapter18/README.md) |
-| 19 | Backend Basics | REST API with Express + SQLite | [Go](./Chapter19/README.md) |
-| 20 | Full-Stack Apps | Complete app with auth (JWT) | [Go](./Chapter20/README.md) |
+| 17 | CLI Tools | Command-line utilities | [Go](./Chapter17-CLI-Tools/README.md) |
+| 18 | Chatbots | Discord/Slack bots | [Go](./Chapter18-Chatbots/README.md) |
+| 19 | Backend Basics | REST API with Express + SQLite | [Go](./Chapter19-Backend-Basics/README.md) |
+| 20 | Full-Stack Apps | Complete app with auth (JWT) | [Go](./Chapter20-Full-Stack-Apps/README.md) |
 
 ### 🎉 After Part 4
 
@@ -318,13 +318,13 @@ Master Claude Code and become a power user.
 
 | Chapter | Topic | What You'll Master | Link |
 |---------|-------|-------------------|------|
-| 21 | Architecture | How Claude Code works internally | [Go](./Chapter21/README.md) |
-| 22 | Advanced Config | CLAUDE.md tiers, settings.json | [Go](./Chapter22/README.md) |
-| 23 | Hooks & Commands | Automation triggers, custom commands | [Go](./Chapter23/README.md) |
-| 24 | Agents & Skills | Specialized AI assistants | [Go](./Chapter24/README.md) |
-| 25 | MCP Integration | Connect external services | [Go](./Chapter25/README.md) |
-| 26 | CI/CD Automation | GitHub Actions, auto deployment | [Go](./Chapter26/README.md) |
-| 27 | Team Collaboration | Team workflows, onboarding | [Go](./Chapter27/README.md) |
+| 21 | Architecture | How Claude Code works internally | [Go](./Chapter21-Architecture/README.md) |
+| 22 | Advanced Config | CLAUDE.md tiers, settings.json | [Go](./Chapter22-Advanced-Config/README.md) |
+| 23 | Hooks & Commands | Automation triggers, custom commands | [Go](./Chapter23-Hooks-and-Commands/README.md) |
+| 24 | Agents & Skills | Specialized AI assistants | [Go](./Chapter24-Agents-and-Skills/README.md) |
+| 25 | MCP Integration | Connect external services | [Go](./Chapter25-MCP-Integration/README.md) |
+| 26 | CI/CD Automation | GitHub Actions, auto deployment | [Go](./Chapter26-CI-CD-Automation/README.md) |
+| 27 | Team Collaboration | Team workflows, onboarding | [Go](./Chapter27-Team-Collaboration/README.md) |
 
 ### 🎉 After Completing Everything
 
@@ -421,5 +421,5 @@ MIT License
 
 <p align="center">
   <strong>Ready to start your AI-native development journey?</strong><br>
-  <a href="./Chapter01/README.md">Begin Chapter 01 →</a>
+  <a href="./Chapter01-AI-Coding-Intro/README.md">Begin Chapter 01 →</a>
 </p>
