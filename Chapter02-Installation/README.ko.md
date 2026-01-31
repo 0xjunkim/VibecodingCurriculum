@@ -510,6 +510,19 @@ curl -fsSL https://claude.ai/install.sh | bash
 ```
 
 **Windows (PowerShell):**
+
+> ⚠️ **Windows 사용자 필수!**
+>
+> Claude Code는 Windows에서 **Git Bash**가 필요합니다.
+> 아래 설치 명령어를 실행하기 **전에** Git을 먼저 설치하세요:
+>
+> 1. [git-scm.com/downloads/win](https://git-scm.com/downloads/win) 접속
+> 2. **"Click here to download"** 클릭하여 설치 파일 다운로드
+> 3. 설치 진행 (기본 옵션으로 Next 클릭)
+> 4. 설치 완료 후 **PowerShell을 닫았다가 새로 열기**
+>
+> Git이 설치되어 있지 않으면 `claude` 명령어가 작동하지 않습니다!
+
 ```powershell
 irm https://claude.ai/install.ps1 | iex
 ```
